@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { createServer } from 'miragejs'
 import { App } from './App';
 
+//valor para API(fake) retornar
 createServer({
   routes() {
     this.namespace = 'api'
