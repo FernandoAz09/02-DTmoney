@@ -18,7 +18,7 @@ export function App() {
 
   return (
     <> 
-      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal}/>
+      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} /> {/* repasse de função */}
 
       <Dashboard />
       
@@ -30,6 +30,6 @@ export function App() {
       </Modal>
 
       <GlobalStyle />
-    </> /* fragment -> tag vazia do React  */
+    </> /* fragment -> tag vazia do React || tipo uma div por volta */
   )
 }

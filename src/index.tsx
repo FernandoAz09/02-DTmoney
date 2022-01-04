@@ -6,7 +6,7 @@ import { App } from './App';
 //valor para API(fake) retornar
 createServer({
   routes() {
-    this.namespace = 'api'
+    this.namespace = 'api' // dizendo para o miragejs que todas as chamadas que eu for fazer estarão a partir do endereço=api
 
     this.get('/transactions', () => {
       return [
