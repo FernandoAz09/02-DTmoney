@@ -14,19 +14,19 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Freela',
+          title: 'Santa Casa',
           type: 'deposit',
-          category: 'Dev',
-          amount: 5000,
-          createdAt: new Date('2021-02-12 09:00:00'),
+          category: 'Emprego',
+          amount: 2300,
+          createdAt: new Date(),
         },
         {
           id: 2,
           title: 'Aluguel',
           type: 'withdraw',
           category: 'Contas',
-          amount: 1200,
-          createdAt: new Date('2021-02-13 19:00:00'),
+          amount: 1600,
+          createdAt: new Date('2022-01-14 19:00:00'),
         }
       ],
     })
